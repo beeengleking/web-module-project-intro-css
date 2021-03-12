@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap'); 
+@import url('<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+/*reset*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -11,30 +16,106 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	border: 1px solid grey;
-	max-width: 100%;
-	vertical-align: baseline;
+  max-width: 100%;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  /*border: 1px solid grey;*/
 }
-
-/**general styles*/
+  /*general styles*/
 html{
   font-size:62.5%; 
 }
-body{
-  font-size:1.6rem;
-  line-height:1.5;
-  color:#4f4f4f;
-}
-h2, h3, h4, h5, h6{
+
+h2, h3, h4, h5, h6, nav{
   font-family: 'Roboto Mono', monospace;
-  letter-spacing:3px;
+  letter-spacing:1.5px;
+  font-weight:bold;
+  font-size: 95%;
+}
+
+.visit{
+  display: block;
   text-decoration: none;
+  margin: 3%;
+  padding: 1% 2%;
+  width: 14%;
+  background-color: #ff764e;
+  color: white;
+  border-radius: 15px;
+  text-align: center;
 }
-h1{font-family: 'Chelsea Market', cursive;
+
+.learn{
+  display: block;
+  text-decoration: none;
+  margin: 3%;
+  padding: 1% 2%;
+  width: 14%;
+  background-color: #5ED3EB;
+  color: white;
+  border-radius: 15px;
+  text-align: center;
 }
+
+.involved{
+  display: block;
+  text-decoration: none;
+  margin: 3%;
+  padding: 1% 2%;
+  width: 14%;
+  background-color: #FFCD69;
+  color: white;
+  border-radius: 15px;
+  text-align: center;
+}
+
 .circle-photo{
+  display: inline;
+  border-radius: 50%;
+  width: 30%;
+  padding: 5%;
+}
+h1{
+  float:right;
+  display: inline;
+  font-family: 'Chelsea Market', cursive;
+  text-align: center;
+  padding: 6%;
+  font-size: 4rem;
+}
+h3 {
+  width: 60%;
 
 }
+.p-one{
+text-align: center;
+padding: 3%;
+font-size: 1.2rem;
+}
+.p-two{
+  text-align: center;
+  padding: 1%;
+  font-size: 1.2rem;
+}
+.peach-paragraph{
+  background-color: #DDB9A3;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 4%;
+  padding: 1% 4%;
+}
+.p-three{
+  padding: .5%;
+}
+.camper {
+  width: 10%;
+  
+}
+
+  
+
+

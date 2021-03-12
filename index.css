@@ -71,7 +71,9 @@ h2, h3, h4, h5, h6, nav{
   border-radius: 15px;
   text-align: center;
 }
-
+# guide{
+  height: 25%;
+}
 .circle-photo{
   display: inline;
   border-radius: 50%;
@@ -86,9 +88,13 @@ h1{
   padding: 6%;
   font-size: 4rem;
 }
+.under-yosemite{
+ margin-left: 40%;
+}
 h3 {
   width: 60%;
-
+  margin-left: 35%;
+  
 }
 .p-one{
 text-align: center;
@@ -99,6 +105,8 @@ font-size: 1.2rem;
   text-align: center;
   padding: 1%;
   font-size: 1.2rem;
+  width: 75%;
+  margin-left: 13%;
 }
 .peach-paragraph{
   background-color: #DDB9A3;
@@ -125,8 +133,12 @@ h4 {
   margin-left: 35%;
   padding-bottom: 5%;
   }
-/*.section-three{
-  margin-left: 40%;
+  
 }
+ #image{
+  width: 100%;
+  object-fit: cover;
+ }
+  
 
 

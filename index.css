@@ -25,15 +25,20 @@ time, mark, audio, video
 html{
   font-size:62.5%;
 }
-body{
+body {
   font-size:1.6rem;
   line-height:1.5;
-  color:#4F4F4F; /*easier to read then back on white*/
+  color:#4F4F4F; /*easier to read then black on white*/
   font-family: 'Roboto Mono', monospace;
 }
 h1{
   font-family: 'Chelsea Market', cursive;
   font-size:5rem;
+}
+p{
+  font-size:1.6rem;
+  line-height:1.5;
+  font-family: 'Roboto Mono', monospace;
 }
 section{
   padding: 4% 0;
@@ -46,12 +51,14 @@ nav{
 
 nav a{
   display: inline-block;
-  padding: 1% 0;
+  padding: 1% 0%;
   width: 10%;
   border-radius: 10px;
   text-align: center;
   color: #fff;
+  text-decoration: none;
 }
+
 .orange{
   background-color: #FF764E;
   margin-left: 10%
@@ -59,24 +66,57 @@ nav a{
 
 .blue{
   background-color: #5ED3EB;
-  margin 0 24%
+  margin: 0 0 2% 23%;
 }  
 
 .yellow{
   background-color: #FFCD69;
   margin-right: 10%;
+  margin-left: 23%;
 }
 
 /*Top section Styles*/
-.top{
-
+.left img{
+  border-radius: 50%;
+  width: 90%;
+}
+.left, .right{
+  display: inline-block;
+}
+.left{
+  width: 30%;
+  padding-left: 5%;
 }
 
+.right{
+  width: 55%;
+  margin-left: 3%;
+  top: 40%;
+  text-align: center;
+}
+.rightP{
+  padding: 0 20%;
+}
+/*pBox styles*/
+.pBox{
+  color: white;
+  background-color: #ddb9a3;
+  margin: 10% 3% 0% 3%;
+  padding: 1% 3%;
+  text-align: center;
+  text-
+
+}
 /*background image section*/
 .heroImg{
   height: 40vh;
   background-image:url('assets/footer_img.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+/*icon section styles*/
 
+/*Footer Styles*/
+footer{
+  background-color: #f9e7dc;
 }

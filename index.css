@@ -1,0 +1,82 @@
+/*css reset*/
+ html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video 
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  border: 1px solid pink;
+}
+
+/*General Styles*/
+html{
+  font-size:62.5%;
+}
+body{
+  font-size:1.6rem;
+  line-height:1.5;
+  color:#4F4F4F; /*easier to read then back on white*/
+  font-family: 'Roboto Mono', monospace;
+}
+h1{
+  font-family: 'Chelsea Market', cursive;
+  font-size:5rem;
+}
+section{
+  padding: 4% 0;
+}
+
+/*header section styles*/
+nav{
+  padding: 4% 0;
+}
+
+nav a{
+  display: inline-block;
+  padding: 1% 0;
+  width: 10%;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+}
+.orange{
+  background-color: #FF764E;
+  margin-left: 10%
+}
+
+.blue{
+  background-color: #5ED3EB;
+  margin 0 24%
+}  
+
+.yellow{
+  background-color: #FFCD69;
+  margin-right: 10%;
+}
+
+/*Top section Styles*/
+.top{
+
+}
+
+/*background image section*/
+.heroImg{
+  height: 40vh;
+  background-image:url('assets/footer_img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
